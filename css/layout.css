@@ -1,0 +1,114 @@
+body{
+    /* if you put the words underneath in a comment it will go back to OG color */
+    background-color: green; 
+}
+
+header{
+    background-color: rgb(255,0,0);
+    width: 960px; 
+    height: 200px; 
+    padding: 20px;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main{
+    width: 960px;
+    height: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: white;
+    margin: 0 auto; /* set top and bottom to 0 and left and right to auto*/
+    margin-bottom: 50px;
+}
+
+footer{
+    width: 960px;
+    height: 200px;
+    background-color: blanchedalmond;
+    padding: 20px 20px 20px 20px; 
+    /* top bottom left and right */
+    border-top-width: 5px;
+    border-top-color: pink;
+    border-top-style: dotted;
+    margin: 0 auto;
+}
+
+h1{
+    background-color: rgba(255,255,255,0.75);
+    font-family: "Arial", sans-serif;
+}
+h2{
+    color: pink;
+    text-align: right;
+    font-family: fantasy;
+}
+p{
+    color: #ffffff;
+    line-height: 30px;
+}
+
+li{
+    font-weight: bold;
+}
+
+ul{
+    background-color: orange
+}
+
+ul li{
+    color: green
+}
+
+ol{
+    font-weight: lighter;
+    list-style: lower-roman;
+}
+
+.purple{
+    color: purple;
+    text-decoration: underline;
+}
+
+a{
+    text-decoration: none;
+    color: pink;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+nav{
+    background-color: black;
+    width: 320px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+nav a{
+    font-size: 20px;
+    color: chartreuse;
+    margin-right: 40px;
+    font-family: 'Roboto',sans-serif;
+}
+
+nav a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.centerImage{
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+}
+
+.imageGallery{
+    width: 300px;
+}
