@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+body{
+    background-color: deepskyblue;
+    font-family:'Courier New', Courier, monospace
+
+}
+
+header{
+    background-color: honeydew;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav{
+    background-color: rgba(100,50,50,0);
+    width: auto;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+main{
+    background-color: lightcyan;
+}
+
+footer{
+    background-color: blanchedalmond;
+}
+
+h1{
+    background-color: darkblue;
+    font-family: 'Playfair', serif;
+    /* this is my custom font from the imported list above */
+}
+
+h2{
+    color: hotpink;
+    font-stretch: expanded;
+    /* this is where I explored a new CSS Property */
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+}
+
+nav a{
+    font-size: 20px;
+    color: coral;
+    display:block;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+img{
+    margin: 10px;
+    border: 10px dotted pink;
+    width: 200px;
+    height: 200px;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.white{
+    color: white;
+}
+
+.center{
+    text-align: center;
+}
